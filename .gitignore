@@ -1,0 +1,54 @@
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editor and IDE settings
+.vscode/
+.idea/
+.vs/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+
+# Unreal Engine generated directories
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+
+# Unreal Engine generated project files
+*.sln
+*.suo
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
+*.csproj
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.xcodeproj
+*.xcworkspace
+*.xcconfig
+*.sln.DotSettings
+
+# Packaged and local build output
+Build/*
+!Build/**/*.ini
+!Build/**/*.xml
+!Build/**/*.cs
+!Build/**/*.bat
+!Build/**/*.sh
+!Build/**/*.command
+
+# Plugin build output
+Plugins/**/Binaries/
+Plugins/**/Intermediate/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
